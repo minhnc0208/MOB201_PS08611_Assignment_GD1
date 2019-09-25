@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.book">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.mob204_ps08611.MainActivity">
+
+        </activity>
+        <activity android:name="com.example.mob204_ps08611.book.ui.ManHinhChaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.mob204_ps08611.book.ui.LoginActivity" />
+        <activity android:name="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.NguoidungActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ThemNguoiDungActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.DoiMatKhauActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.TheLoaiActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ThemTheLoaiActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.TheLoaiActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.SachActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ThemSachActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.SachActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.HoaDonActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ThemHoaDonActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HoaDonActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ThongKeActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.SachBanChayActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.HomeActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ChiTietNguoiDungActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.NguoidungActivity" />
+        <activity
+            android:name="com.example.mob204_ps08611.book.ui.ChiTietTheLoaiActivity"
+            android:parentActivityName="com.example.mob204_ps08611.book.ui.TheLoaiActivity" />
+        <activity android:name="com.example.mob204_ps08611.book.ui.ChiTietSachActivity" />
+    </application>
+
+</manifest>
