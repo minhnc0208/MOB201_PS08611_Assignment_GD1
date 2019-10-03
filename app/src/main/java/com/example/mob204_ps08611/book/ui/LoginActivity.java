@@ -3,7 +3,6 @@ package com.example.mob204_ps08611.book.ui;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -11,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 
 import com.example.dell.book.R;
 import com.example.mob204_ps08611.book.dao.NguoiDungDao;
